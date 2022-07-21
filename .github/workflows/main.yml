@@ -50,8 +50,8 @@ jobs:
           echo is nginx installed?
           nginx -v
           echo
-          echo is nginx running?
-          systemctl status nginx
+          echo is Firewall running?
+          systemctl status ufw
 
           
           
