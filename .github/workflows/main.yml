@@ -38,8 +38,8 @@ jobs:
           echo is docker installed?
           docker --version
           echo
-          echo is flask installed?
-          flask --version
+          echo Install Flask:
+          pip install Flask
           echo
           echo is pip installed?
           pip --version
